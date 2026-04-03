@@ -1,0 +1,30 @@
+feat: Liverio v2 - complete liver disease prediction system
+
+ML pipeline:
+- ILPD dataset (583 patients, 10 biomarkers)
+- SMOTE balancing + StandardScaler
+- Logistic Regression selected (AUC=0.8186)
+- SHAP feature importance
+
+Backend (FastAPI):
+- /predict, /recommendations, /full-report endpoints
+- Pydantic validation + structured logging
+- CORS enabled for all origins
+
+Frontend:
+- Premium single-page app (HTML/CSS/JS)
+- Instrument Serif + Inter typography
+- Dark/light mode persisted in localStorage
+- Animated gauge, health score ring, probability doughnut chart
+- SHAP feature importance bars with animation
+- Voice input via Web Speech API
+- AI chatbot (Claude API + local KB fallback)
+- PDF report generation (jsPDF)
+- Fully offline demo mode (no backend required)
+- GitHub Pages compatible
+
+CI/CD:
+- GitHub Actions: train → test → deploy to gh-pages
+- Smoke tests for all API endpoints
+
+Closes #1
