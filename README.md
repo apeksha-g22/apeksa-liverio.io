@@ -303,7 +303,7 @@ This tool is for **educational and informational purposes only**. It is not a su
 
 ## 📄 License
 
-MIT © 2024 — [Your Name]
+MIT © 2024 — [Apeksha Gupta]
 
 ---
 
